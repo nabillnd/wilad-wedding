@@ -540,6 +540,11 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
+  .mynavbar .nav-link {
+    font-size: 1rem;
+    text-align: center;
+    overflow: visible;
+  }
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
@@ -553,5 +558,35 @@ footer li {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+}
+
+/* Small Mobile Phone */
+@media (max-width: 410px) {
+  html {
+    font-size: 50%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 30px;
+    margin: 1px;
+  }
+  .mynavbar .nav-link {
+    font-size: 0.5rem;
+    text-align: center;
+    overflow: visible;
+  }
+  .timeline li .timeline-image {
+    width: 65px;
+    height: 65px;
+  }
+  .timeline li .timeline-panel {
+    width: 50%;
+    transform: translateX(-5px);
+  }
+  .timeline li .timeline-panel::before {
+    top: 25px;
+  }
+  .timeline li .timeline-panel::after {
+    top: 26px;
   }
 }
