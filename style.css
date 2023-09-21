@@ -522,6 +522,9 @@ footer li {
     font-size: 2rem;
     text-align: center;
   }
+  .iframe {
+    height: 150px;
+  }
   .sticky-top {
     overflow: hidden;
   }
